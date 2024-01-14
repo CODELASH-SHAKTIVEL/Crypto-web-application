@@ -3,7 +3,7 @@ import { VStack,Image , Heading ,Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
     const CoinCard = ({ id, name, img, symbol, price, currencySymbol = "₹"  }) => (
-        <Link to={`/coin/${id}`}>
+        <Link to={`/coins/${id}`}>
     <VStack
       w={"52"}
       shadow={"lg"}
